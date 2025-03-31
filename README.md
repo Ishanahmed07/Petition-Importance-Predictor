@@ -4,7 +4,7 @@
 This repository contains the code and documentation for **COMP1804 Task 2**, a machine learning project focused on predicting the importance of petitions ("important" or "not_important") using a semi-supervised approach. The project leverages a Logistic Regression model with TF-IDF vectorization and additional features like petition topics and deviation across regions, achieving high accuracy on a small labeled dataset.
 
 ## Project Overview
-The goal of this project is to predict the `petition_importance` label for 8,898 petitions from the dataset `comp1804_coursework_dataset_24-25-copy.csv`. Only 100 rows have labeled importance, while the remaining 8,798 are unlabeled. The approach uses a supervised model trained on the labeled data, tuned with GridSearchCV, and then applied to predict importance for the full dataset.
+The goal of this project is to predict the `petition_importance` label for 8,898 petitions from the dataset `comp1804_coursework_dataset_24-25.csv`. Only 100 rows were manually labeled as importance, while the remaining 8,798 are unlabeled. The approach uses a supervised model trained on the labeled data, tuned with GridSearchCV, and then applied to predict importance for the full dataset.
 
 ### Key Features
 - **Data Preprocessing**: Text cleaning, tokenization, stopword removal, and lemmatization using NLTK.
